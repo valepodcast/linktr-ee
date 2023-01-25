@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  --bg-color: #EDF2FF;
+  --text-color: #00082F;
+}
+
+body.dark {
+  --bg-color: #ada9a9bb;
+  --text-color: #121213;
+}
+
+body {
+  background: var(--bg-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+
+.page {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
+
+header img {
+  width: 20rem;
+
+
+  padding: 4px;
+  
+}
+
+.verificado {
+  display: flex;
+  justify-content: center;
+  line-height: 5rem;
+  align-items: center;
+}
+
+.verificado img {
+  width: 2.5rem;
+
+}
+
+h1 {
+  margin-top: 1rem;
+  margin-bottom: .8rem;
+  font-size: 32px;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.vem {
+  margin-top: 1rem;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  margin: 48px 0;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  height: 53px;
+  justify-content: center;
+  border-radius: 20px;
+  background: #caa707;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 16px;
+  transition: background 400ms;
+}
+
+ul li:hover {
+  opacity: 0.6;
+}
+
+footer {
+  font-size: 1.4rem;
+  margin-top: 10rem;
+  text-align: center;
+  display: flex;
+  
+  flex-direction: column;
+  gap: 2rem;
+}
+
+footer a .click {
+  margin: 0 auto;
+}
+
+footer a button {
+  background: #ffffff;
+  border: none;
+  border-radius: 2rem;
+  height: 4rem;
+  width: 9rem;
+  cursor: pointer;
+
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.credito {
+  font-size: 1.2rem;
+}
+
